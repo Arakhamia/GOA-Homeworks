@@ -1,0 +1,41 @@
+<!--1) შექმენით form რომელშიც გექნებათ input type name, input type gmail, input
+type password, drop-down menu (ფერებზე). არ დაგავიწყდეთ name, value, required და ასეთი ატრიბუტები.
+2) შექმენით drop-down menu ცხოველებზე
+3) შექმენით drop-down menu ხილზე
+4) შექმენით drop-down menu device'ბზე (მაგალითად: ტელეფონი, ლეპტოპი, PC, ტელევიზორი და ა.შ)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!--I made input type text, for user to make him enter his name-->
+        <label for="name">Please, enter you name:</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <!--I made input type email, for user to make him enter his email-->
+        <label for="email">Enter your E-Mail:</label>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <!--I made input type password, for user to make him enter his password-->
+        <label for="password">Enter your password:</label>
+        <input type="password" name="password" id="password" required><br><br>
+
+        <!--I made drop down menu, for user to make him choose his favourite colour-->
+        <label for="colors">Choose your favourite colour:</label>
+        <select name="colors" id="colors">
+            <option value="r">Red</option>
+            <option value="g" selected>Green</option>
+            <option value="b">Blue</option>
+        </select><br><br>
+
+        <!--I made input type submit, for user, with this input there will be button that
+         will send all the data to the data base-->
+        <input type="submit">
+        <!--all of the inputs have their labels and values, values are data wich will be sent to the data base-->
+    </form>
+</body>
+</html>

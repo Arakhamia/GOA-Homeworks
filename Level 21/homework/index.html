@@ -1,0 +1,63 @@
+<!-- 2) შექმენით საიტი სადაც გექნებათ სარეგისტრაციო ფორმა და ასევე დღეს ნასწავლი მასალა (Drop Down Menu) 
+ამის დახმარებით შეეკითხეთ მოხმარებელს რომელი ქვეყნიდანაა და ასევე რომელი ქალაქიდანაა,არ დაგავიწყდეთ
+name ატრიბუტი რათა სწორად და შესაბამის ადგილას გაიგზავნოს ჩვენი input'ი database'ში -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LVL 21</title>
+</head>
+<body>
+    <form>
+
+        <label for="nickname">Enter your nickname:</label>
+        <input type="text" name="nickname" id="nickname" required><br><br>
+    
+        <label for="email">Enter you E-Mail:</label>
+        <input type="email" name="email" id="email" required><br><br>
+    
+        <label for="password">Enter you password:</label>
+        <input type="password" name="password" id="password" required><br><br>
+    
+        <label for="Male">Are you Male or Female?:<br> Male:</label>
+        <input type="radio" id="Male" name="gender" value="Male:">
+        <label for="Female">Female:</label>
+        <input type="radio" id="Female" name="gender" value="Female"><br><br>
+    
+        <label for="bd">Choose your birth date:</label>
+        <input type="date" name="birthday date" id="bd" required><br><br>
+    
+        <label for="countries">Choose your Country:</label>
+        <select name="countries" id="countries">
+            <option value="Geo">Georgia</option>
+            <option value="Eng">England</option>
+            <option value="Ukr">Ukraine</option>
+            <option value="Pol">Poland</option>
+            <option value="Fra">France</option>
+            <option value="Ger">Germany</option>
+            <option value="Rus">Russia</option>
+            <option value="Usa">America</option>
+        
+    
+        </select><br><br>
+    
+            <label for="city">Choose your City:</label>
+            <select name="city" id="city">
+                <option value="Geo">Tbilisi</option>
+                <option value="Eng">London</option>
+                <option value="Ukr">Kiev</option>
+                <option value="Pol">Warsaw</option>
+                <option value="Fra">Paris</option>
+                <option value="Ger">Berlin</option>
+                <option value="Rus">Moscow</option>
+                <option value="Usa">Washington</option>
+    
+    
+            </select><br><br>
+    
+            <input type="submit" value="done">
+    
+</body>
+</html>

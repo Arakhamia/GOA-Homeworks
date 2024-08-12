@@ -1,6 +1,8 @@
+#7) შექმენით while loop'ი რომელიც დაითვლის რიცხვების ჯამს 1-დან 10-მდე ( დაგჭირდებათ 1 დამატებითი ცვლადი )
+
 num = 1
-sum_ = 0
+sumy = 0
 while num < 10:
-    sum_ += num
+    sumy += num
     num += 1
-print(sum_)
+print(sumy)

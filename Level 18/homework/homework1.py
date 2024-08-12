@@ -1,5 +1,7 @@
-sum_ = 0
+#3) შექმენით for loop'ი რომელიც დაითვლის რიცხვების ჯამს 1-დან 10-მდე ( დაგჭირდებათ 1 დამატებითი ცვლადი )
+
+sumy = 0
 for num in range(1, 10):
-    sum_ += num   
-print(sum_)
+    sumy += num   
+print(sumy)
     

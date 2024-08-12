@@ -1,3 +1,5 @@
+#2) გატესტეთ როგორ მუშაობს type ფუნქცია
+
 name = "Andria"
 age = 12
 division = 4/2

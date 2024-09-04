@@ -29,4 +29,6 @@ def simple_claculator(num1, num2, symbol):
         print("division = " + str(division))
     elif symbol == "/" and num1 or num2 == 0:
         print("ZeroDivisionError: number can not be divided by the 0")
-simple_claculator(12, 52, "+")
+
+        
+simple_claculator(12, 52, "-")

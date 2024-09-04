@@ -1,0 +1,11 @@
+div{
+    font-size: large;color: rgb(255, 0, 0);
+    text-align:center;
+    background-color: blue;
+    font-family:cursive;
+    height: 300;
+    width: 300;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 17px 17px 2px green;
+}

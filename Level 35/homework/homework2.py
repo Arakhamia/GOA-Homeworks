@@ -11,3 +11,9 @@ first_half = numbers[0:5]
 second_half = numbers[5:10]
 
 squares = []
+for i in numbers:
+    squares.append(i**2)
+
+print(first_half)
+print(second_half)
+print(squares)

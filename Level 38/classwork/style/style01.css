@@ -1,0 +1,16 @@
+a:link{
+    color: crimson;
+}
+
+a:active{
+    color: aquamarine;
+}
+
+a:hover{
+    font-size: larger;
+    color: orange;
+}
+
+a:visited{
+    letter-spacing: 15px;
+}

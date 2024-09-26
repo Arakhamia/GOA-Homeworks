@@ -8,27 +8,26 @@
 #თუ ოპერაცია არის „გაყოფა“ და num2 არის 0, ფუნქციამ უნდა დააბრუნოს „შეცდომა: ნულზე გაყოფა შეუძლებელია“.
 #ჩაწერეთ კოდი, რომ გამოიძახოთ ფუნქცია სხვადასხვა ოპერაციებით და დაბეჭდოთ შედეგები
 
-def simple_claculator(num1, num2, symbol):
+def basic_op(operator, value1, value2, ):
 
-    addition = num1 + num2
-    deduction = num1 - num2
-    multiplication = num1 * num2
-    division = num1 / num2
+    addition = value1 + value2
+    deduction = value1 - value2
+    multiplication = value1 * value2
+    division = value1 / value2
 
 
-    if symbol not in ('+', '-', '*', '/'):
+    if operator not in ('+', '-', '*', '/'):
         print("Invalid operation. Please enter one of +, -, *, /.")
         return
-    elif symbol == "+":
-        print("addition = " + str(addition))
-    elif symbol == "-":
-        print("deduction = " + str(deduction))
-    elif symbol == "*":
-        print("multiplication = " + str(multiplication))
-    elif symbol == "/":
-        print("division = " + str(division))
-    elif symbol == "/" and num1 or num2 == 0:
+    elif operator == "+":
+        print(str(addition))
+    elif operator == "-":
+        print(str(deduction))
+    elif operator == "*":
+        print(str(multiplication))
+    elif operator == "/":
+        print(str(division))
+    elif operator == "/" and value1 or value2 == 0:
         print("ZeroDivisionError: number can not be divided by the 0")
 
-        
-simple_claculator(12, 52, "-")
+# simple_calculaor-ის ნაცვლად დავარქვი basic_op და ასევე სხვა სახელი დავარქვი num1 და num2

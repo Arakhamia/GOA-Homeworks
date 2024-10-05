@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #19a1ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.div{
+    width: 500px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.div1{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 170px;
+    margin-top: -90px;
+}
+
+.div1 img{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    padding-right: 13px;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 13px;
+}
+
+.div2{
+    padding-top: 40px;
+    font-family: Kumbh Sans;
+    font-size: smaller;
+}
+
+.h1{
+    padding-left: 150px;
+}
+
+.h11{
+    padding-left: 315px;
+    margin-top: -32px;
+    color: #a2a2a4;
+    font-weight: 400;
+}
+
+.London{
+    font-family: Kumbh Sans;
+    color: #a2a2a4;
+    padding-left: 220px;
+    font-weight: 400;
+}
+
+.line{
+    padding-top: 10px;
+    color: #dbdbdb;
+}
+
+.followers-numbers{
+    font-family: Kumbh Sans;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.likes-numbers{
+    font-family: Kumbh Sans;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 230px;
+    margin-top: -25px;
+}
+
+.photos-numbers{
+    font-family: Kumbh Sans;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 370px;
+    margin-top: -23px;
+}
+
+.followers{
+    font-family: Kumbh Sans;
+    font-size: x-small;
+    padding-left: 96px;
+    color: #a2a2a4;
+}
+
+.likes{
+    font-family: Kumbh Sans;
+    font-size: x-small;
+    padding-left: 240px;
+    margin-top: -12px;
+    color: #a2a2a4;
+}
+
+.photos{
+    font-family: Kumbh Sans;
+    font-size: x-small;
+    padding-left: 373px;
+    margin-top: -12px;
+    color: #a2a2a4;
+}

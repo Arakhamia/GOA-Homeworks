@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bai Jamjuree;
+}
+
+
+
+
+#pic1{
+    width: 100%;
+    margin: 0;
+}
+
+#pic2{
+    margin-bottom: 200px;
+    margin-left: 700px;
+    margin-top: -300px;
+}
+
+.txt{
+    color: black;
+    font-size: 50px;
+    font-family: Bai Jamjuree;
+    margin-left: 400px;
+    margin-top: -100px;
+}
+
+.txt2{
+    font-size: 20px;
+     margin-left: 575px;
+     margin-top: -75px;
+     color: #666;
+     opacity: 20px;
+}
+
+.but{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    background-color: #26bba5;
+    color: white;
+    margin-left: 580px;
+    margin-top: -25px;
+    box-shadow: 1px 1px 1px 0.5px #5d7a75;
+    margin-top: 70px;
+    font-weight: 500;
+}
+
+.but:hover{
+    background-color: #7de3d4;
+    box-shadow: 1px 1px 1px 0.5px #cad4d2;
+    font-weight: 500;
+}
+
+.but1{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    background-color: #6074ff;
+    color: white;
+    box-shadow: 1px 1px 1px #656985;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.but1:hover{
+    background-color: #929eec;
+    box-shadow: 1px 1px 1px 0.5px #cad4d2;
+    font-weight: 500;
+}
+
+.img{
+    margin-top: 200px;
+    width: 400px;
+    height: 200px;
+}
+  
+  p {
+      font-size: 1.2rem;
+      color: #666;
+  }
+  
+  #mockup {
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+  }
+  
+  .device {
+      max-width: 300px;
+      margin: 0 20px;
+  }
+  
+  #features {
+      text-align: center;
+      padding: 50px;
+  }
+  
+  .features-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+  }
+  
+  .feature {
+      max-width: 250px;
+  }
+  
+  .feature img {
+      width: 50px;
+      margin-bottom: 20px;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 30px;
+  }
+  
+  .company-logos img {
+      width: 100px;
+      margin: 0 10px;
+  }
+
+  .txt1{
+    font-family: Bai Jamjuree;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 520px;
+    font-weight: 300;
+    color: #666;
+  }
+
+  #hone{
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  #pd{
+    margin-left: 420px;
+    font-weight: 300;
+  }
+
+  #computer{
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  #par{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -450px;
+  }
+
+  #aca{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  #par2{
+    text-align: center;
+  }
+
+  #pt{
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+
+  .sk{
+    text-align: center;
+  }
+
+  #bc{
+    position: absolute;
+    margin-top: 70px;
+    width: 50px;
+    margin-left: 300px;
+  }
+
+  #t{
+    position: absolute;
+    margin-top: 70px;
+    width: 50px;
+    margin-left: 750px;
+  }
+
+  #sp{
+    position: absolute;
+    margin-top: 70px;
+    width: 50px;
+    margin-left: 1200px;
+  }
+
+  #div1{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 200px;
+  }
+
+  #div2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 630px;
+  }
+
+  #div3{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1120px;
+  }
+
+  .paragraph{
+    position: absolute;
+  }
+
+  #par3{
+    margin-top: 200px;
+    margin-left: 130px;
+  }
+
+  #par4{
+    margin-top: 200px;
+    margin-left: 570px;
+  }
+
+  #par5{
+    margin-top: 200px;
+    margin-left: 1030px;
+  }
+
+  #google{
+    margin-top: 400px;
+    margin-left: 180px;
+  }
+
+  #ibm{
+    margin-left: 120px;
+  }
+
+  #microsoft{
+    margin-left: 120px;
+  }
+
+  #hp{
+    margin-left: 120px;
+  }
+
+  #vector{
+    margin-left: 120px;
+  }
+
+  h1{
+    color: #3e3e3e;
+  }
+
+  #cfiamo{
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  #par6{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  footer{
+    margin-top: 300px;
+    background-color: #f5f6f8;
+    height: 150px;
+  }
+
+  #abc{
+    width: 70px;
+    position: absolute;
+    margin-left: -650px;
+    margin-top: 25px;
+  }
+
+  #f{
+    position: absolute;  
+    margin-left: -400px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  #pp{
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  #ig{
+    position: absolute;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  #cu{
+    position: absolute;
+    margin-left: -400px;
+    margin-top: 60px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  #pk{
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 60px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+    #f{
+    position: absolute;  
+    margin-left: -400px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  #pp{
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  #ig{
+    position: absolute;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  #cu{
+    position: absolute;
+    margin-left: -400px;
+    margin-top: 60px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  #pk{
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 60px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  #f:hover{
+    text-decoration: none;
+    color: #23b9a3;
+    font-weight: 500;
+  }
+
+  #pp:hover{
+    text-decoration: none;
+    color: #23b9a3;
+    font-weight: 500;
+  }
+
+  #ig:hover{
+    text-decoration: none;
+    color: #23b9a3;
+    font-weight: 500;
+  }
+
+  #cu:hover{
+    text-decoration: none;
+    color: #23b9a3;
+    font-weight: 500;
+  }
+
+  #pk:hover{
+    text-decoration: none;
+    color: #23b9a3;
+    font-weight: 500;
+  }
+
+  /* #facebook{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 40px;
+  }
+
+  #twitter{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 40px;
+  }
+
+  #instagram{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 40px;
+  } */
+
+  #div10{
+    width: 130px;
+    height: 70px;
+    margin-left: 1150px;
+    margin-top: 40px;
+  }

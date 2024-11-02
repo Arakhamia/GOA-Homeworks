@@ -1,4 +1,3 @@
-https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ
-https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
+https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
 
-გააკეთეთ ესეთი საიტები figma-ში
+დარეგისტრირდით figma  - ში, შექმენით ახალი ფაილი და ეცადეთ, რომ ააგოთ frontend challenge დიზაინი რაც ზემოთ ჩაგიგდეთ ⬆️ (დაიხმარეთ ჩანაწერი)

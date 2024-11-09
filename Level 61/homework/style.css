@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.scale{
+    transition: 0.5s;
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 10px;
+}
+.scale:hover{
+    transform: scale(2);
+}
+
+.translate{
+    transition: 0.5s;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.translate:hover{
+    transform: translate(50px);
+}
+
+.rotate{
+    transition: 0.5s;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 10px;
+}
+.rotate:hover{
+    transform: rotate(360deg);
+}
+
+.skew{
+    transition: 0.5s;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+}
+.skew:hover{
+    transform: skew(40deg);
+}

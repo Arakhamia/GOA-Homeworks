@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    width: 100px;
+    height: 60px;
+    background-color: chartreuse;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: wschool;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wschool{
+    0%{
+        transform: rotate(70deg);
+    }
+
+    50%{
+        transform: translateX(300px);
+        background-color: aquamarine;
+    }
+
+    100%{
+        transform: rotate(720deg);
+    }
+
+}
+

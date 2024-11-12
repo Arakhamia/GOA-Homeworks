@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Huddle{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#tif{
+    border: 2px solid #fd63a9;
+    background-color: white;
+    margin-left: 1000px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fd63a9;
+    font-size: large;
+    box-shadow: 5px pink;
+}
+
+main{
+    margin-top: 150px;
+}
+
+#hone{
+    font-weight: 700;
+    font-family: Poppins;
+    text-align: center;
+}
+
+#p1{
+    font-family: Open Sans;
+    font-size: small;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+#p2{
+    font-family: Open Sans;
+    font-size: small;
+    text-align: center;
+    font-weight: 500;
+}
+
+#p3{
+    font-family: Open Sans;
+    font-size: small;
+    text-align: center;
+    font-weight: 500;
+}
+
+#get{
+    height: 50px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 617px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fd63a9;
+    color: white;
+    font-weight: 500;
+    font-family: Open Sans;
+}
+
+#desktop{
+    margin-left: 242px;
+    margin-top: 50px;
+}
+
+#div1{
+    margin-left: 320px;
+    width: 400px;
+    height: 200px;
+}
+
+#communities{
+    width: 50px;
+}
+
+#massage{
+    padding-left: 300px;
+}

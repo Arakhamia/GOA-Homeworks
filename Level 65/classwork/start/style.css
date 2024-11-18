@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: #d34511;
+    position: fixed;
+    text-align: center;
+}
+
+#header{
+    align-self: center;
+    width: 1000px;
+    padding-left: 200px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: normal;
+    gap: 10px;
+}
+
+a{
+color: white;
+}
+
+#logo{
+    height: 90px;
+}
+
+footer{
+    width: 100%;
+    padding-top: 200px;
+}
+
+.div1{
+    background-color: #1abc9c;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 200px;
+}
+
+
+
+#submit{
+    width: 350px;
+    height: 55px;
+    background-color: #ff6900;
+    border: none;
+    border-radius: 15px;
+}
+
+.input1{
+    height: 57px;
+    width: 464px;
+    border-radius: 5px;
+    border: 0.1px;
+}
+
+.p1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 30px;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+}

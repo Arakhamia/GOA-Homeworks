@@ -1,0 +1,39 @@
+:root{
+    --div_margin: 50px;
+    --back_color: #42a5f5;
+    --radius: 20px;
+    --padding-g: 800px;
+    --color-back: orange;
+    --font: cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-back);
+}
+
+header{
+    background-color: var(--back_color);
+}
+
+div{
+    margin: var(--div_margin);
+    background-color: var(--back_color);
+    border-radius: var(--radius);
+}
+
+h2{
+    padding-left: var(--padding-g);
+}
+
+footer{
+    background-color: var(--back_color);
+    margin-top: 720px;
+    height: 100px;
+    font-family: var(--font);
+}

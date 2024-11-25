@@ -1,0 +1,17 @@
+body{
+    height: 300vh;
+}
+
+img{
+    -webkit-box-reflect: below;
+    width: 200px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: orangered;
+    margin-top: 300px;
+    -webkit-box-reflect: below;
+}

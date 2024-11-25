@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders+Display:wght@100..900&family=Jaldi:wght@400;700&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: jaldi;
+}
+
+header{
+    background-color: #eef4ed;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+#headeraa{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 850px;
+}
+
+#andria{
+    color: #0B2545;
+}
+
+#arakhamia{
+    color: #134074;
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    color: #eef4ed;
+}
+
+#projects{
+    background-color: #0B2545;
+    transition: 1s;
+}
+
+#projects:hover{
+    background-color: #8DA9C4;
+}
+
+#aboutme{
+    background-color: #13315C;
+    transition: 1s;
+}
+
+#aboutme:hover{
+    background-color: #8DA9C4;
+}
+
+#contact{
+    background-color: #134074;
+    transition: 1s;
+}
+
+#contact:hover{
+    background-color: #8DA9C4;
+}
+
+#buttons{
+    padding-right: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+body{
+    background-color: #e8e6e3;
+}
+
+/* #image{
+    padding-left: 1050px;
+    width: 780px;
+    height: 780px;
+} */
+
+#andriaarakhamia{
+    width: 600px;
+    height: 100px;
+    color: #0B2545;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+pre{
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+img{
+    padding-left: 1000px;
+}

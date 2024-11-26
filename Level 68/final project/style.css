@@ -73,19 +73,9 @@ button{
     gap: 20px;
 }
 
-
-
-
-
-body{
+main{
     background-color: #e8e6e3;
 }
-
-/* #image{
-    padding-left: 1050px;
-    width: 780px;
-    height: 780px;
-} */
 
 #andriaarakhamia{
     width: 600px;
@@ -102,6 +92,126 @@ pre{
     padding-left: 30px;
 }
 
-img{
+#text{
+    height: 200px;
+}
+
+#image{
     padding-left: 1000px;
+    margin-top: -200px;
+}
+
+#me{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 10px solid #0B2545;
+}
+
+#mediv{
+    margin-left: 100px;
+    margin-top: -518px;
+}
+
+footer{
+    height: 200px;
+    background-color: #134074;
+}
+
+#divtel{
+    width: 200px;
+    padding-left: 50px;
+}
+
+#tel{
+    color: #0B2545;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#divnumber{
+    width: 500px;
+    margin-top: -40px;
+    padding-left: 170px;
+}
+
+#number{
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+
+
+#dive{
+    width: 200px;
+    padding-left: 50px;
+}
+
+#e{
+    color: #0B2545;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#divmail{
+    width: 500px;
+    margin-top: -40px;
+    padding-left: 120px;
+}
+
+#mail{
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+
+
+#divem{
+    width: 200px;
+    padding-left: 50px;
+}
+
+#em{
+    color: #0B2545;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#divmessage{
+    width: 500px;
+    margin-top: -40px;
+    padding-left: 160px;
+}
+
+#message{
+    color: white;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 900;
+    border: 2px solid #0B2545;
+    color: #000000;
+}
+
+#divsubmit{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#submitmessage{
+    background-color: #0B2545;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    transition: 1s;
+    border: 1px solid #000000;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+#submitmessage:hover{
+    background-color: #537ba8;
+    border: none;
+    border: 1px solid #0B2545;
 }

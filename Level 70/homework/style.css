@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    'sidebar header header sect1'
+    'sidebar sect2 sect3 navigation'
+    'sidebar sect4 sect5 navigation';
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr;
+}
+
+header, nav, aside, #sect1, #sect2, #sect3, #sect4, #sect5{
+    border: 1px solid white;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    grid-area: header;
+    background-color: #6cbf4d;
+}
+
+aside{
+    grid-area: sidebar;
+    background-color: #6cbf4d;
+}
+
+nav{
+    grid-area: navigation;
+    background-color: #6cbf4d;
+}
+
+#sect1{
+    grid-area: sect1;
+    background-color: #ec3436;
+}
+
+#sect2{
+    grid-area: sect2;
+    background-color: #fab12e;
+}
+
+#sect3{
+    grid-area: sect3;
+    background-color: #ec3436;
+}
+
+#sect4{
+    grid-area: sect4;
+    background-color: #ec3436;
+}
+
+#sect5{
+    grid-area: sect5;
+    background-color: #fab12e;
+}

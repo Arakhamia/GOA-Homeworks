@@ -1,0 +1,13 @@
+button{
+    background-color: black;
+    border: none;
+    border-radius: 0%;
+    width: 200px;
+    height: 200px;
+    transition: 5s;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+    border-radius: 50%;
+}

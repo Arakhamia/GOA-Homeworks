@@ -103,6 +103,69 @@ button{
     color: #8DA9C4;
 }
 
+#buttons{
+    padding-right: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+button a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+main{
+    background-color: #e8e6e3;
+}
+
+#andriaarakhamia{
+    width: 600px;
+    height: 100px;
+    color: #0B2545;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    color: #eef4ed;
+}
+
+#projects{
+    background-color: #0B2545;
+    transition: 0.5s;
+}
+
+#projects:hover{
+    background-color: #8DA9C4;
+}
+
+#aboutme{
+    background-color: #13315C;
+    transition: 0.5s;
+}
+
+#aboutme:hover{
+    background-color: #8DA9C4;
+}
+
+#contact{
+    background-color: #134074;
+    transition: 0.5s;
+}
+
+#contact:hover{
+    background-color: #8DA9C4;
+}
 
 #buttons{
     padding-right: 100px;
@@ -133,148 +196,35 @@ main{
     font-size: xx-large;
 }
 
-pre{
-    font-weight: bold;
-    padding-top: 50px;
-    padding-left: 30px;
-    font-size: larger;
-}
-
-#text{
-    height: 200px;
-}
-
 #image{
-    padding-left: 1000px;
-    margin-top: -250px;
-    margin-bottom: 100px;
-    height: 810px;
-    width: 810px;
-    display: grid;
-    grid-template-areas:
-    'div1 div2 div3'
-    'div4 div5 div3'
-    'div6 div7 div8';
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8{
-    height: 270px;
-    width: 270px;
-}
-
-.div1{
-    grid-area: div1;
-    background-color: #134074;
-    border-radius: 40% 0px 0px 40%;
-    transition: 0.5s;
-}
-
-.div1:hover{
-    border: 20px solid #8DA9C4;
-}
-
-.div2{
-    grid-area: div2;
-    background-color: #13315c;
-    transform: rotate(45deg);
-    width: 190px;
-    height: 190px;
-    margin-left: 40px;
-    margin-top: 40px;
-    transition: 0.5s;
-}
-
-.div2:hover{
-    transform: rotate(405deg);
-}
-
-.div3{
-    grid-area: div3;
-    background-color: #0b2545;
-    height: 540px;
-    border-radius: 0px 200px 200px 0px;
-    transition: 0.5s;
-}
-
-.div3:hover{
-    height: 270px;
-}
-
-.div4{
-    grid-area: div4;
-    border: 30px solid #8da9c4;
-    background-color: #e8e6e3;
-    transition: 0.5s;
-}
-
-.div4:hover{
-    border: 20px solid #0B2545;
-}
-
-.div5{
-    grid-area: div5;
-    background-color: white;
-    border-radius: 50%;
-    transition: 0.5s;
-}
-
-.div5:hover{
-    border-radius: 0%;
-}
-
-.div6{
-    grid-area: div6;
-    background-color: #8da9c4;
-    border-radius: 100px 100px 0px 100px;
-    transition: 0.5s;
-}
-
-.div6:hover{
-    border-radius: 0px 0px 100px 0px;
-}
-
-.div7{
-    grid-area: div7;
-    background-color: white;
-    transition: 0.5s;
-}
-
-.div7:hover{
-    background-color: #e8e6e3;
-    border: 20px solid white;
-}
-
-.div8{
-    grid-area: div8;
-    background-color: #8da9c4;
-    border-radius: 0px 80% 0px 0px;
-    transition: 0.5s;
-}
-
-.div8:hover{
-    background-color: #0B2545;
-}
-
-#me{
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
     border: 10px solid #0B2545;
+    width: 420px;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 50px;
 }
 
-#mediv{
-    margin-left: 100px;
-    margin-top: -600px;
+#img1{
+    mix-blend-mode: multiply;
+    width: 400px;
+}
+
+#gitdiv{
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+#h1{
+    margin-left: 600px;
 }
 
 footer{
-    height: 200px;
+    height: 248px;
     background-color: #134074;
 }
 
 #divtel{
+    padding-top: 30;
     width: 200px;
     padding-left: 50px;
 }
@@ -360,7 +310,7 @@ footer{
     border-radius: 20px;
     width: 400px;
     height: 40px;
-    transition: 0.5s;
+    transition: 1s;
     border: 1px solid #000000;
     font-weight: 900;
     font-size: x-large;
@@ -375,17 +325,6 @@ footer{
 }
 
 @media screen and (max-width: 1440px){
-    body{
-        width: 100%;
-    }
-    
-    #image{
-        padding-left: 600px;
-    }
-
-    #mediv{
-        margin-right: 60px;
-    }
 
     #headeraa{
         padding-right: 300px;
@@ -393,12 +332,19 @@ footer{
 }
 
 @media screen and (max-width: 1024px){
+
+    #gitdiv{
+            margin-left: 170px;
+            margin-top: -80px;
+    }
+
     #image{
         display: none;
     }
 
-    #mediv{
-        padding-top: 600px;
+    #h1{
+        font-size: medium;
+        margin-left: 250px;
     }
 
     #headeraa{
@@ -412,6 +358,7 @@ footer{
     #headeraa{
         display: none;
     }
+
 }
 
 @media screen and (max-width: 426px){
@@ -548,5 +495,43 @@ footer{
     }
 
     
+    #gitdiv{
+            margin-left: 30px;
+            margin-top: -80px;
+    }
+
+    #image{
+        display: none;
+    }
+
+    #h1{
+        font-size: medium;
+        margin-left: 150px;
+    }
+
+    #headeraa{
+        padding-right: 30px;
+        font-size: x-small;
+    }
+    
+    #gitdiv{
+        margin-left: 170px;
+        margin-top: -80px;
+    }
+
+    #image{
+        display: none;
+    }
+
+    #h1{
+        font-size: medium;
+        margin-left: 250px;
+    }
+
+    #headeraa{
+        padding-right: 30px;
+        font-size: x-small;
+    }
+
 }
 

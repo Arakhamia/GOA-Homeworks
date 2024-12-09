@@ -133,140 +133,81 @@ main{
     font-size: xx-large;
 }
 
-pre{
-    font-weight: bold;
-    padding-top: 50px;
-    padding-left: 30px;
-    font-size: larger;
+main{
+    display: flex;
+    justify-content: space-around;
+    height: 67vh;
 }
 
-#text{
-    height: 200px;
-}
-
-#image{
-    padding-left: 1000px;
-    margin-top: -250px;
-    margin-bottom: 100px;
-    height: 810px;
-    width: 810px;
-    display: grid;
-    grid-template-areas:
-    'div1 div2 div3'
-    'div4 div5 div3'
-    'div6 div7 div8';
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8{
-    height: 270px;
-    width: 270px;
-}
-
-.div1{
-    grid-area: div1;
-    background-color: #134074;
-    border-radius: 40% 0px 0px 40%;
-    transition: 0.5s;
-}
-
-.div1:hover{
-    border: 20px solid #8DA9C4;
-}
-
-.div2{
-    grid-area: div2;
-    background-color: #13315c;
-    transform: rotate(45deg);
-    width: 190px;
-    height: 190px;
-    margin-left: 40px;
-    margin-top: 40px;
-    transition: 0.5s;
-}
-
-.div2:hover{
-    transform: rotate(405deg);
-}
-
-.div3{
-    grid-area: div3;
-    background-color: #0b2545;
-    height: 540px;
-    border-radius: 0px 200px 200px 0px;
-    transition: 0.5s;
-}
-
-.div3:hover{
-    height: 270px;
-}
-
-.div4{
-    grid-area: div4;
-    border: 30px solid #8da9c4;
-    background-color: #e8e6e3;
-    transition: 0.5s;
-}
-
-.div4:hover{
-    border: 20px solid #0B2545;
-}
-
-.div5{
-    grid-area: div5;
-    background-color: white;
-    border-radius: 50%;
-    transition: 0.5s;
-}
-
-.div5:hover{
-    border-radius: 0%;
-}
-
-.div6{
-    grid-area: div6;
-    background-color: #8da9c4;
-    border-radius: 100px 100px 0px 100px;
-    transition: 0.5s;
-}
-
-.div6:hover{
-    border-radius: 0px 0px 100px 0px;
-}
-
-.div7{
-    grid-area: div7;
-    background-color: white;
-    transition: 0.5s;
-}
-
-.div7:hover{
-    background-color: #e8e6e3;
-    border: 20px solid white;
-}
-
-.div8{
-    grid-area: div8;
-    background-color: #8da9c4;
-    border-radius: 0px 80% 0px 0px;
-    transition: 0.5s;
-}
-
-.div8:hover{
+#div1{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
     background-color: #0B2545;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    transition: 2s;
 }
 
-#me{
-    width: 500px;
-    height: 500px;
+#div1:hover{
+    transform: scale(1.1);
+}
+
+#div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #0B2545;
+    margin-top: 50px;
+    transition: 1.5s;
+}
+
+#div2:hover{
+    transform: scale(1.1);
+}
+
+#bio{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #0B2545;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    transition: 1.5s;
+}
+
+#bio:hover{
+    transform: scale(1.1);
+}
+
+#picture-me{
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
-    border: 10px solid #0B2545;
 }
 
-#mediv{
-    margin-left: 100px;
-    margin-top: -600px;
+#x2, #mybio{
+    background-color: #4c80bb;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#x1, #y1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4886cd;
+    height: 100px;
+    border-radius: 5px;
+}
+
+#my-portofilio{
+    color: rgb(192, 192, 192);
 }
 
 footer{
@@ -375,17 +316,6 @@ footer{
 }
 
 @media screen and (max-width: 1440px){
-    body{
-        width: 100%;
-    }
-    
-    #image{
-        padding-left: 600px;
-    }
-
-    #mediv{
-        margin-right: 60px;
-    }
 
     #headeraa{
         padding-right: 300px;
@@ -393,12 +323,9 @@ footer{
 }
 
 @media screen and (max-width: 1024px){
-    #image{
-        display: none;
-    }
 
-    #mediv{
-        padding-top: 600px;
+    main{
+        margin-bottom: 100px;
     }
 
     #headeraa{
@@ -412,13 +339,10 @@ footer{
     #headeraa{
         display: none;
     }
+
 }
 
 @media screen and (max-width: 426px){
-    #mediv{
-        display: none;
-    }
-
     #andriaarakhamia{
         width: 600px;
         height: 100px;
@@ -427,16 +351,12 @@ footer{
         padding-top: 50px;
         font-size: large;
     }
-    
-    pre{
-        font-weight: bold;
-        padding-top: 50px;
-        padding-left: 30px;
-        font-size: small;
-    }
-    
-    #text{
-        height: 200px;
+
+    main{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
     }
 
     #buttons{
@@ -548,5 +468,43 @@ footer{
     }
 
     
+    #gitdiv{
+            margin-left: 30px;
+            margin-top: -80px;
+    }
+
+    #image{
+        display: none;
+    }
+
+    #h1{
+        font-size: medium;
+        margin-left: 150px;
+    }
+
+    #headeraa{
+        padding-right: 30px;
+        font-size: x-small;
+    }
+    
+    #gitdiv{
+        margin-left: 170px;
+        margin-top: -80px;
+    }
+
+    #image{
+        display: none;
+    }
+
+    #h1{
+        font-size: medium;
+        margin-left: 250px;
+    }
+
+    #headeraa{
+        padding-right: 30px;
+        font-size: x-small;
+    }
+
 }
 

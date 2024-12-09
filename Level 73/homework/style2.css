@@ -1,0 +1,12 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    transition: 1s;
+}
+
+div:hover{
+    background-color: orange;
+    width: 250px;
+    height: 150px;
+}

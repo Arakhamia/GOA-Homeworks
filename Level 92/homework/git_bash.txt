@@ -1,0 +1,10 @@
+    1  Notepad t.txt
+    2  cd "Level 92"
+    3  cd "classwork"
+    4  Notepad g.txt
+    5  Notepad i.txt
+    6  Notepad t.txt
+    7  code g.txt
+    8  code i.txt
+    9  code t.txt
+    10  history

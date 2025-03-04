@@ -1,0 +1,4 @@
+https://www.w3schools.com/js/js_htmldom.asp - წაიკითხეთ დამატებითი ინფორმაცია.
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
+Image
+https://www.geeksforgeeks.org/dom-document-object-model/ -  წაიკითხეთ დამატებითი ინფორმაცია.

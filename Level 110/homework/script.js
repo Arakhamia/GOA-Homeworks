@@ -22,3 +22,10 @@ div34[0].style.fontSize = '20px';
 div34[1].style.backgroundColor = 'yellow';
 div34[1].style.color = 'white';
 div34[1].style.fontSize = '20px';
+
+
+
+document.body.innerHTML=`
+<input type="number" name="" id="num1">
+`
+
